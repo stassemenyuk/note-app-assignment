@@ -67,3 +67,21 @@
 .hide {
   display: none;
 }
+
+@media (max-width: 992px) {
+  .note-detail-view {
+    flex-wrap: wrap-reverse;
+  }
+  .note-detail__content {
+    flex: 0 0 100%;
+  }
+
+  .note-detail__tools {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .note-detail__tools button {
+    flex: 0 0 33%;
+  }
+}

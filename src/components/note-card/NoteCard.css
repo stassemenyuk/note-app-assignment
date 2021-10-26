@@ -3,6 +3,7 @@
   border-radius: 25px;
   flex: 0 0 24%;
   background: #fff;
+  margin-bottom: 25px;
 }
 
 .note__title,
@@ -50,4 +51,10 @@
 
 .note-link:hover {
   color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 992px) {
+  .note-card {
+    flex: 0 0 100%;
+  }
 }
