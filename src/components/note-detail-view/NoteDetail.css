@@ -4,13 +4,45 @@
   margin: 0 auto;
   display: flex;
   border: 1px solid #000;
+  background: #fff;
+  color: #000;
   border-radius: 15px;
+  position: relative;
 }
 
 .note-detail__title {
   font-size: 32px;
 }
 
+.note-detail__content {
+  flex: 0 0 70%;
+}
+
+.note-detail__tools {
+  flex: 0 0 30%;
+}
+
 .note-detail__tools button {
+  cursor: pointer;
+  width: 50%;
   display: block;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+
+.copy__text {
+  margin: 0 auto;
+  width: 50%;
+  color: green;
+}
+
+.note-detail__tools button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.note-detail__date {
+  text-align: right;
+  vertical-align: bottom;
 }
