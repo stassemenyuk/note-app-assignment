@@ -43,7 +43,6 @@ function NoteDetail({ match }) {
         </CopyToClipboard>
         <div className="copy__text">{copyText}</div>
         <button>Share</button>
-        <div className="note-detail__date">{date}</div>
       </div>
       <div className={classNames}>
         <h3>New Text:</h3>
@@ -57,6 +56,7 @@ function NoteDetail({ match }) {
           <button className="new-text__submit">Submit</button>
         </form>
       </div>
+      <div className="note-detail__date">{date}</div>
     </div>
   );
 }
