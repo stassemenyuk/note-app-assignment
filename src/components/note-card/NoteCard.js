@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { deleteItem } from '../../actions/actions';
 
@@ -18,7 +19,9 @@ export default function NoteCard({ title, text, date, id }) {
         {text}
         <div className="note__date">{date}</div>
       </div>
-      <div className="note__tools"></div>
+      <div className="note__tools">
+        <Link to={`/${id}`}>View more</Link>
+      </div>
     </div>
   );
 }
