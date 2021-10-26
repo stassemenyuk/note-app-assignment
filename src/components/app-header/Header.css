@@ -2,6 +2,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
-  border: 1px solid #000;
+  padding: 30px;
+  border-radius: 25px;
+  background: #0e3538;
+  margin-bottom: 25px;
+}
+
+.settings__icon svg {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  fill: #fff;
+}
+
+.settings__icon svg:hover {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.logo-link,
+.logo-link:visited,
+.logo-link:focus {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+}
+
+.logo-link:hover {
+  color: rgba(255, 255, 255, 0.8);
 }

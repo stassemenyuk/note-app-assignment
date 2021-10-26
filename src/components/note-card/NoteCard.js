@@ -20,7 +20,9 @@ export default function NoteCard({ title, text, date, id }) {
         <div className="note__date">{date}</div>
       </div>
       <div className="note__tools">
-        <Link to={`/${id}`}>View more</Link>
+        <Link className="note-link" to={`/${id}`}>
+          View more
+        </Link>
       </div>
     </div>
   );

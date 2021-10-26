@@ -2,12 +2,14 @@
   border: 1px solid #000;
   border-radius: 25px;
   flex: 0 0 24%;
+  background: #fff;
 }
 
 .note__title,
 .note__text,
 .note__tools {
   padding: 15px;
+  color: #000;
 }
 
 .note__title {
@@ -29,4 +31,15 @@
 
 .note__date {
   text-align: right;
+}
+
+.note__tools {
+  text-align: right;
+}
+
+.note-link,
+.note-link:visited,
+.note-link:focus {
+  color: #000;
+  text-decoration: none;
 }

@@ -1,0 +1,16 @@
+.note-detail-view {
+  width: 70%;
+  padding: 25px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.note-detail__title {
+  font-size: 32px;
+}
+
+.note-detail__tools button {
+  display: block;
+}

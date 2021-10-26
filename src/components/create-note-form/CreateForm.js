@@ -40,6 +40,7 @@ export default function CreateForm() {
       <h2>Create new note</h2>
       <div className="form__title">
         <input
+          className="form-input"
           onChange={(e) => setTitle(e.target.value)}
           placeholder="Title"
           type="text"
@@ -48,6 +49,7 @@ export default function CreateForm() {
       </div>
       <div className="form__note">
         <input
+          className="form-input"
           onChange={(e) => setText(e.target.value)}
           placeholder="Note"
           type="text"

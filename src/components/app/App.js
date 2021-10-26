@@ -7,8 +7,8 @@ import NoteDetail from '../note-detail-view/NoteDetail';
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router>
+        <Header />
         <Switch>
           <Route exact path="/">
             <MainPage />
